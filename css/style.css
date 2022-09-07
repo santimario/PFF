@@ -1,8 +1,7 @@
 /* reseteo de estillo*/
-*{
-    margin: 0;
-    padding: 0;
+*{  
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* cuerpo de la web */
@@ -67,7 +66,7 @@ ul li{
  
 /* enlaces en general */
 a{
-    text-decoration: none;
+    
     color: #669bef;
 }
 
