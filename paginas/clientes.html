@@ -10,34 +10,39 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <title>Clientes</title>        
     </head>
-    <body>
-        <header>
-            <div class="flex__header-enlaces">
-                <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank">Facebook</a>
-            </div>  
+    <body class="container-fluid">
+        <header class="border-css">
 
-                <a href="../index.html">
-                <img src="../img/pff-logo.jpeg" alt="logo" id="logo">
-                </a> <hr>
-                
-            <ul class="menu"><!--Menu de navegacion-->              
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand animate__animated animate__backInDown" href="../index.html"><img id="logo"
+                            src="../img/pff-logo.jpeg" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
     
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-    
-                <li>
-                    <a href="about.html">Acerca de nosotros</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>            
-        </header><hr> 
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="animacion" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="animacion" href="../paginas/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="animacion" href="../paginas/about.html">Acerca de nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="animacion" href="../paginas/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+     
 
         <div class="container__cards">
             <div class="card__producto">
@@ -66,18 +71,27 @@
             <!-- fin tercer cliente -->
         </div> <!-- fin divs cards clientes -->
 
-        <hr>
-        <footer class="flex__footer-general">
-            <div>
-                <p>Industria argentina.</p>
-            </div>           
-         
-            <div>
-                <h4>Seguinos</h4>
-                <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank">Facebook</a>
-            </div>              
-    </footer>
+        <br>
+        <footer class="container-fluid border-css">
+
+            <div class="col-7 d-flex justify-content-end">
+                <p>Industria Argentina<img src="../img/iconos redes/band-argentina.png" alt="pais"></p>
+            </div>
+    
+            <div class="col-5 d-flex justify-content-end">
+                <div>
+                    <label for="redes">Seguinos</label>
+    
+                    <div>
+                        <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
+                                src="../img/iconos redes/logo-ig.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
+                                src="../img/iconos redes/logo-fb.png" alt="facebook"></a>
+                    </div>
+                </div>
+            </div>
+    
+        </footer>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

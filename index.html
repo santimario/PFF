@@ -14,9 +14,8 @@
 
 <body class="container-fluid">
 
-
-    <header class="border">
-
+    <header class="border-css">
+        
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand animate__animated animate__backInDown" href="../index.html"><img id="logo"
@@ -30,9 +29,6 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="animacion" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="animacion" href="../paginas/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
@@ -41,39 +37,50 @@
                         <li class="nav-item">
                             <a class="animacion" href="../paginas/about.html">Acerca de nosotros</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="animacion" href="../paginas/contacto.html">Contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
 
-    <section class="border">
+    <section class="row">
 
-        <div class="titulo__section">
+        <div class="row">
             <h1>Fabricante de repuestos para maquinas de gimnasios.</h1>
         </div>
 
-        <div>
+
+        <div class="row">
             <h2>Inicio</h2>
             <p>Al servicio de nuestros clientes, los deportistas mas exigentes.</p>
         </div>
 
     </section>
 
-    <footer class="border">
+    <br>
+    <footer class="container-fluid border-css">
 
-        <p>Industria Argentina.</p>
-
-        <div class="enlaces__footer">
-            <label for="redes">Seguinos</label>
-            <div class="enlaces__footer-links">
-                <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
-                        src="./img/iconos redes/logo-ig.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
-                        src="./img/iconos redes/logo-fb.png" alt="facebook"></a>
-            </div>
+        <div class="col-7 d-flex justify-content-end">
+            <p>Industria Argentina<img src="./img/iconos redes/band-argentina.png" alt="pais"></p>
         </div>
 
+        <div class="col-5 d-flex justify-content-end">
+
+            <div>
+                <label for="redes">Seguinos</label>
+
+                <div>
+                    <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
+                            src="./img/iconos redes/logo-ig.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
+                            src="./img/iconos redes/logo-fb.png" alt="facebook"></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="./bootstrap/js/bootstrap.min.js"></script>

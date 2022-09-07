@@ -1,81 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="../img/favicon.png"/>
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">  
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>      
-        <title>Contacto</title>        
-    </head>
-    <body>
-        <header>
-            <div class="flex__header-enlaces">
-                <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank">Facebook</a>
-            </div>  
 
-                <a href="../index.html">
-                <img src="../img/pff-logo.jpeg" alt="logo" id="logo">
-                </a> <hr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Contacto</title>
+</head>
 
-            <ul class="menu"><!--Menu de navegacion-->              
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="clientes.html">Clientes</a>
-                </li>
-                <li>
-                    <a href="about.html">Acerca de nosotros</a>
-                </li>        
-            </ul>            
-        </header><hr>
+<body class="container-fluid">
+    <header class="border">
 
-        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand animate__animated animate__backInDown" href="../index.html"><img id="logo"
+                        src="../img/pff-logo.jpeg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="animacion" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="animacion" href="../paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="animacion" href="../paginas/clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="animacion" href="../paginas/about.html">Acerca de nosotros</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
         <h1>Contacto</h1>
+    </div>
 
-        <!--formulario de contacto-->
-        <form action="" method="get" enctype="multipart/form-data">
-            <fieldset> 
-                <legend>Información de contacto</legend><br>
-                <p>Complete los campos para enviar su solicitud de contacto y nos comunicaremos a la brevedad.</p><br>
-                <div>
-                    <label for="nombre">Nombre y apellido</label><br>
-                    <input type="text" id="nombre" name="nombre">
-                </div>
-                <br>
-                <div>
-                    <label for="telefono">Numero de telefono</label><br>
-                    <input type="number" id="telefono" name="telefono">
-                </div>
-                <br>
-                <div>
-                    <label for="nombre">Escribe un comentario aqui</label>
-                    <br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+    <div class="row">
+        <div class="col-4">
+            <form action="" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Escriba su nombre completo aqui">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Escriba su correo electronico aqui">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Numero telefonico</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Escriba su numero telefonico aqui">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Algun comentario que quiera
+                            hacernos</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
                     <input type="submit" value="Enviar">
-                </div>
-            </fieldset>        
-        </form>
+        </div>
+    </div>
+    </fieldset>
+    </form>
+    </div>
 
-        <hr>
-        <footer class="flex__footer-general">
+    <br>
+    <footer class="container-fluid border-css">
+
+        <div class="col-7 d-flex justify-content-end">
+            <p>Industria Argentina<img src="../img/iconos redes/band-argentina.png" alt="pais"></p>
+        </div>
+
+        <div class="col-5 d-flex justify-content-end">
             <div>
-                <p>Industria argentina.</p>
-            </div>           
-         
-            <div>
-                <h4>Seguinos</h4>
-                <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank">Facebook</a>
-            </div>              
+                <label for="redes">Seguinos</label>
+
+                <div>
+                    <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
+                            src="../img/iconos redes/logo-ig.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
+                            src="../img/iconos redes/logo-fb.png" alt="facebook"></a>
+                </div>
+            </div>
+        </div>
+
     </footer>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
-    </body>
+</body>
+
 </html>

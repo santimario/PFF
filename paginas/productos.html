@@ -12,8 +12,7 @@
     <title>Productos</title>
 </head>
 
-<body class="container">
-
+<body class="container-fluid">
 
     <header class="border">
 
@@ -33,13 +32,13 @@
                             <a class="animacion" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="animacion" href="../paginas/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="animacion" href="../paginas/clientes.html">Clientes</a>
                         </li>
                         <li class="nav-item">
                             <a class="animacion" href="../paginas/about.html">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="animacion" href="../paginas/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -47,63 +46,143 @@
         </nav>
     </header>
 
-    <h1>Productos:</h1>
-
-    <div class="container__cards">
-        <div class="card__producto">
-
-            <div>
-                <img src="../img/productos/polea.png" alt="polea" width="280px">
-            </div>
-            <div class="cards__text">
-                <h2>Polea</h2>
-                <p>-Poleas de 90mm y 120mm <br>
-                    -Ambas incluyen sus tapidtas de rodamiento
-                </p>
-            </div>
-        </div>
-
-        <!-- fin primer producto -->
-        <div class="card__producto">
-            <div>
-                <img src="../img/productos/regatones.png" alt="regatones" width="250px">
-                <h2>Regatones</h2>
-                <p>
-                    -Regatones de 80x40 en PVC o plastico
-                </p>
-            </div>
-        </div>
-
-        <!-- fin segundo producto -->
-        <div class="card__producto">
-            <div>
-                <img src="../img/productos/registros.jpg" alt="registros" width="200px">
-                <h2>Registros</h2>
-                <p>
-                    -Registro con distintas tapas de colores <br>
-                    -Medidas de 120x60mm
-                </p>
-            </div>
-        </div>
-        <!-- fin tercer producto -->
+    <div class="row">
+        <h1>Productos</h1>
     </div>
 
-    <hr>
-    <footer class="border">
+    <section class="container-fluid">
 
-        <p>Industria Argentina.</p>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/productos-img/polea-1.png" class="d-block w-100" alt="polea-1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/productos-img/polea-2.png" class="d-block w-100" alt="polea-2">
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
+                    </div>
+                    <h5 class="card-title text-dark">Polea</h5>
+                    <p class="card-text text-dark">
+                        -Polea de 90mm
+                        <br>
+                        -Incluye ambas tapas de rodamiento
+                        <br>
+                        -Incluye ruleman
+                    </p>
+                </div>
+            </div>
 
-        <div class="enlaces__footer">
-            <label for="redes">Seguinos</label>
-            <div class="enlaces__footer-links">
-                <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
-                        src="../img/iconos redes/logo-ig.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
-                        src="../img/iconos redes/logo-fb.png" alt="facebook"></a>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/productos-img/regaton-1-plastico.png" class="d-block w-100"
+                                    alt="regaton-1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/productos-img/regaton-2-plastico.png" class="d-block w-100"
+                                    alt="regaton-2">
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
+                    </div>
+                    <h5 class="card-title text-dark">Regaton</h5>
+                    <p class="card-text text-dark">
+                        -Medidas: 80x40
+                        <br>
+                        -Color: Negro
+                        <br>
+                        -Material: Plastico
+                    </p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/productos-img/buje-reductor-largo-1.png" class="d-block w-100"
+                                    alt="polea-1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/productos-img/buje-reductor-largo-2.png" class="d-block w-100"
+                                    alt="polea-2">
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
+                    </div>
+                    <h5 class="card-title text-dark">Buje reductor largo</h5>
+                    <p class="card-text text-dark">
+                        -Medidas: 50x40
+                        <br>
+                        -Color: Negro
+                        <br>
+                        -Material: Plastico
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <br>
+    <footer class="container-fluid border-css">
+
+        <div class="col-7 d-flex justify-content-end">
+            <p>Industria Argentina<img src="../img/iconos redes/band-argentina.png" alt="pais"></p>
+        </div>
+
+        <div class="col-5 d-flex justify-content-end">
+            <div>
+                <label for="redes">Seguinos</label>
+
+                <div>
+                    <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
+                            src="../img/iconos redes/logo-ig.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
+                            src="../img/iconos redes/logo-fb.png" alt="facebook"></a>
+                </div>
             </div>
         </div>
 
     </footer>
+
     <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 

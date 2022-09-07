@@ -1,83 +1,71 @@
-/* reseteo de estillo*/
-*{  
-    box-sizing: border-box;
-    text-decoration: none;
+*{
+    color: white;
 }
 
+.border-css{
+    border: 1px solid white;
+}
 /* cuerpo de la web */
-body{
-    display: flex;
-    width: auto;
-    flex-direction: column;    
+body{         
     background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fcfcfc;
-    font-weight:bold;
-}
-
-h1{
-    display: flex;
-    justify-content: baseline;
-    text-align: center;
-    letter-spacing: 0.2px;
+    background-attachment: fixed;       
 }
 
 /* imagen del logo */
-#logo{ 
-    display: flex;
-    margin: 0px auto;
-    width: 500px;
+#logo{     
+    width: 300px;
     border: solid 1px grey;
     border-radius: 50%;
-    box-shadow:  5px 5px 60px grey;
+    box-shadow: 5px 5px 60px grey;    
 }
 
-.flex__header-enlaces{
-    display: flex;
-    padding: 10px 15px 0px 0px;       
-    flex-direction: column;
-    align-items: flex-end;    
-}
-
-/* menu de navegacion */
-.menu{    
+nav div ul{
+    width: 100%;    
     display: flex;    
-    padding: 20px;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: end;
 }
+nav div ul li a{
+    display: inline-block;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;    
+    text-decoration: none;
+    font-size: 23px;
+    padding: 0px 10px;
 
-/* elementos del menu de navegacion(tabla) */
-ul li{
-    list-style-type: none;    
-    display: flex;
-    padding: 5px;
-    border-left: 3px solid #f5f5f5;        
 }
-
-/* enlaces en menu */
-.menu a{        
-    font-size: x-large;
-    bottom: 50px;
+.animacion:hover{
+    animation: bounce;
+    animation-duration: 2s;
+    color: aliceblue;
 }
- 
-/* enlaces en general */
-a{
-    
-    color: #669bef;
-}
-
-.flex__footer-general{
-    display: flex;
-    padding: 1000px 0px 20px 0px;     
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-evenly;
+h1{        
     text-align: center;
+    width: 39%;
+    font-family: 'Rubik Dirt', cursive;
+       
 }
+
+section img{
+    height: 250px;
+    width: 200px;
+}
+input{
+    color: black;
+}
+
+footer{
+    display: flex;
+    row-gap: row; 
+    font-family: 'Rubik Dirt', cursive;       
+}
+
+footer img{
+    width: 50px;
+}
+
+
 
 
 
