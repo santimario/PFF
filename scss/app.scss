@@ -1,0 +1,82 @@
+* {
+    color: white;
+}
+
+.border-css{
+    border: 1px solid white;
+}
+
+
+body {
+
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+
+    .animacion:hover{
+        animation: bounce;
+        animation-duration: 2s;
+        color: aliceblue;
+    }
+    
+    #logo {
+        width: 300px;
+        border: solid 1px grey;
+        border-radius: 50%;
+        box-shadow: 5px 5px 60px grey;
+    }
+
+    nav {
+        div {
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: end;
+
+                a {
+                    display: inline-block;
+                    color: white;
+                    font-family: 'Rubik Dirt', cursive;
+                    text-decoration: none;
+                    font-size: 23px;
+                    padding: 0px 10px;
+                    
+                }
+            }
+        }
+
+    }
+
+
+}
+
+section {
+
+    h1 {
+        text-align: center;
+        width: 39%;
+        font-family: 'Rubik Dirt', cursive;
+    }
+
+
+
+    img {
+        height: 250px;
+        width: 200px;
+    }
+}
+
+footer {
+    display: flex;
+    row-gap: row;
+    font-family: 'Rubik Dirt', cursive;
+
+    img {
+        width: 50px;
+    }
+}
