@@ -10,11 +10,6 @@ body {
   background-position: center;
   background-attachment: fixed; }
 
-header .animacion:hover {
-  animation: bounce;
-  animation-duration: 2s;
-  color: aliceblue; }
-
 header #logo {
   width: 300px;
   border: solid 1px grey;
@@ -32,6 +27,10 @@ header nav div ul {
     text-decoration: none;
     font-size: 23px;
     padding: 0px 10px; }
+    header nav div ul a:hover {
+      animation: bounce;
+      animation-duration: 2s;
+      color: aliceblue; }
 
 section h1 {
   text-align: center;
