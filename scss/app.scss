@@ -24,6 +24,10 @@ header {
         border: solid 1px grey;
         border-radius: 50%;
         box-shadow: 5px 5px 60px grey;
+        
+        @media (max-width:500px){
+            width: 250px;
+        }
     }
 
     nav {
@@ -77,3 +81,4 @@ footer {
         width: 50px;
     }
 }
+
