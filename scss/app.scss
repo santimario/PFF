@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
     color: white;
 }
@@ -15,10 +17,7 @@ body {
     background-attachment: fixed;
 }
 
-
-header {
-
-    
+header {    
 
     #logo {
         width: 300px;
@@ -36,8 +35,8 @@ header {
 
                 a {
                     display: inline-block;
-                    color: white;
-                    font-family: 'Rubik Dirt', cursive;
+                    color: $color-fuente;
+                    font-family: $font-family;
                     text-decoration: none;
                     font-size: 23px;
                     padding: 0px 10px;
@@ -45,7 +44,7 @@ header {
                     &:hover{
                         animation: bounce;
                         animation-duration: 2s;
-                        color: aliceblue;
+                        color: $color-fuente;
                     }
                     
                 }
@@ -53,8 +52,6 @@ header {
         }
 
     }
-
-
 }
 
 section {
@@ -62,10 +59,8 @@ section {
     h1 {
         text-align: center;
         width: 39%;
-        font-family: 'Rubik Dirt', cursive;
+        font-family: $font-family;
     }
-
-
 
     img {
         height: 250px;
@@ -76,7 +71,7 @@ section {
 footer {
     display: flex;
     row-gap: row;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: $font-family;
 
     img {
         width: 50px;

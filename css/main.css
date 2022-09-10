@@ -23,19 +23,19 @@ header nav div ul {
   header nav div ul a {
     display: inline-block;
     color: white;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: "Rubik Dirt";
     text-decoration: none;
     font-size: 23px;
     padding: 0px 10px; }
     header nav div ul a:hover {
       animation: bounce;
       animation-duration: 2s;
-      color: aliceblue; }
+      color: white; }
 
 section h1 {
   text-align: center;
   width: 39%;
-  font-family: 'Rubik Dirt', cursive; }
+  font-family: "Rubik Dirt"; }
 
 section img {
   height: 250px;
@@ -44,6 +44,6 @@ section img {
 footer {
   display: flex;
   row-gap: row;
-  font-family: 'Rubik Dirt', cursive; }
+  font-family: "Rubik Dirt"; }
   footer img {
     width: 50px; }
