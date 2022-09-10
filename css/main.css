@@ -50,3 +50,6 @@ footer {
   font-family: "Rubik Dirt"; }
   footer img {
     width: 50px; }
+    @media (max-width: 500px) {
+      footer img {
+        width: 30px; } }
