@@ -35,10 +35,13 @@ header nav div ul {
       animation-duration: 2s;
       color: white; }
 
-section h1 {
+h1 {
   text-align: center;
   width: 39%;
   font-family: "Rubik Dirt"; }
+
+section .cards__product {
+  padding: 5px 0px; }
 
 section img {
   height: 250px;

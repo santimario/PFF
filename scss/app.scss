@@ -58,12 +58,16 @@ header {
     }
 }
 
+h1 {
+    text-align: center;
+    width: 39%;
+    font-family: $font-family;
+}
+
 section {
 
-    h1 {
-        text-align: center;
-        width: 39%;
-        font-family: $font-family;
+    .cards__product{
+        padding: 5px 0px;
     }
 
     img {
