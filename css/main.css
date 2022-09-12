@@ -42,10 +42,18 @@ h1 {
 
 section div .cards__product {
   padding: 5px 0px; }
+  section div .cards__product img {
+    height: 250px;
+    width: 500px; }
 
-section img {
-  height: 250px;
-  width: 200px; }
+section .carrousel__client {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px; }
+  section .carrousel__client img {
+    height: 700px;
+    width: 400px; }
 
 footer {
   display: flex;

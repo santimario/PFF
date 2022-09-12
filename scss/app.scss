@@ -4,7 +4,7 @@
     color: white;
 }
 
-.border-css{
+.border-css {
     border: 1px solid white;
 }
 
@@ -17,15 +17,15 @@ body {
     background-attachment: fixed;
 }
 
-header {    
+header {
 
     #logo {
         width: 300px;
         border: solid 1px grey;
         border-radius: 50%;
         box-shadow: 5px 5px 60px grey;
-        
-        @media (max-width:500px){
+
+        @media (max-width:500px) {
             width: 250px;
         }
     }
@@ -45,12 +45,12 @@ header {
                     font-size: 23px;
                     padding: 0px 10px;
 
-                    &:hover{
+                    &:hover {
                         animation: bounce;
                         animation-duration: 2s;
                         color: $color-fuente;
                     }
-                    
+
                 }
             }
         }
@@ -58,24 +58,39 @@ header {
     }
 }
 
-h1 {
+h1{
     text-align: center;
     width: 39%;
     font-family: $font-family;
 }
 
+
+
 section {
-    div{
-        .cards__product{
+    div {
+        .cards__product {
             padding: 5px 0px;
+
+            img {
+                height: 250px;
+                width: 500px;
+            }
         }
     }
-    
 
-    img {
-        height: 250px;
-        width: 200px;
+  .carrousel__client{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;                 
+
+    img{             
+        height: 700px;
+        width: 400px;
     }
+           
+  }
+   
 }
 
 footer {
@@ -86,9 +101,8 @@ footer {
     img {
         width: 50px;
 
-        @media (max-width:500px){
+        @media (max-width:500px) {
             width: 30px;
         }
     }
 }
-

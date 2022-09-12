@@ -1,97 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="../img/favicon.png"/>
-        <link rel="stylesheet" href="../css/main.css">   
-        <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">  
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <title>Clientes</title>        
-    </head>
-    <body class="container-fluid">
-        <header class="border-css">
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand animate__animated animate__backInDown" href="../index.html"><img id="logo"
-                            src="../img/pff-logo.jpeg" alt="logo"></a>
-                    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Clientes</title>
+</head>
+
+<body class="container-fluid">
+    <header class="border-css">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand animate__animated animate__backInDown" href="../index.html"><img id="logo"
+                        src="../img/pff-logo.jpeg" alt="logo"></a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../paginas/about.html">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="row">
+
+        <div class="row">
+            <h1>Nuestros clientes</h2>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner carrousel__client">
+                        <div class="carousel-item active">
+                            <img src="../img/clientes/cliente 1.png" alt="cliente-1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/clientes/cliente-2.png" alt="cliente-2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/clientes/cliente-3.png" alt="cliente-3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-    
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a  href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a  href="../paginas/productos.html">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a  href="../paginas/about.html">Acerca de nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a  href="../paginas/contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </nav>
-        </header>
-     
+            </div>
+        </div>
 
-        <div class="container__cards">
-            <div class="card__producto">
-                
+
+    </section>
+
+
+
+
+    <footer class="container-fluid border-css">
+
+        <div class="col-7 d-flex justify-content-end">
+            <p>Industria Argentina<img src="../img/iconos redes/band-argentina.png" alt="pais"></p>
+        </div>
+
+        <div class="col-5 d-flex justify-content-end">
+            <div>
+                <label for="redes">Seguinos</label>
+
                 <div>
-                    <img src="../img/clientes/cliente 1.png" alt="cliente" width="280px">
-                </div>
-
-            </div>
-
-            <!-- fin primer cliente -->
-            <div class="card__producto">
-                <div>
-                    <img src="../img/clientes/cliente-2.png" alt="cliente-4" width="250px">
-                  
+                    <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
+                            src="../img/iconos redes/logo-ig.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
+                            src="../img/iconos redes/logo-fb.png" alt="facebook"></a>
                 </div>
             </div>
+        </div>
 
-            <!-- fin segundo cliente -->
-            <div class="card__producto">
-                <div>
-                    <img src="../img/clientes/cliente-3.png" alt="cliente-3" width="200px">
-             
-                </div>
-            </div>
-            <!-- fin tercer cliente -->
-        </div> <!-- fin divs cards clientes -->
-
-        <br>
-        <footer class="container-fluid border-css">
-
-            <div class="col-7 d-flex justify-content-end">
-                <p>Industria Argentina<img src="../img/iconos redes/band-argentina.png" alt="pais"></p>
-            </div>
-    
-            <div class="col-5 d-flex justify-content-end">
-                <div>
-                    <label for="redes">Seguinos</label>
-    
-                    <div>
-                        <a href="https://www.instagram.com/fitnesspowerfullpfgalvan/" target="_blank"><img
-                                src="../img/iconos redes/logo-ig.png" alt="instagram"></a>
-                        <a href="https://www.facebook.com/profile.php?id=100063570084973" target="_blank"><img
-                                src="../img/iconos redes/logo-fb.png" alt="facebook"></a>
-                    </div>
-                </div>
-            </div>
-    
-        </footer>
+    </footer>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
-    </body>
+</body>
+
 </html>
