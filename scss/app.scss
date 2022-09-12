@@ -64,8 +64,6 @@ h1{
     font-family: $font-family;
 }
 
-
-
 section {
     div {
         .cards__product {
@@ -78,12 +76,14 @@ section {
         }
     }
 
-  .carrousel__client{        
-        padding: 20px 0px;                   
+  .carrousel__client{ 
 
-    img{             
+     padding: 20px 0px;                   
+
+    img{ 
+        padding: 0px 400px;            
         height: 700px;
-        width: 400px;
+        width: 100px;
     }
            
   }

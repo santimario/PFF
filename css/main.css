@@ -49,8 +49,9 @@ section div .cards__product {
 section .carrousel__client {
   padding: 20px 0px; }
   section .carrousel__client img {
+    padding: 0px 400px;
     height: 700px;
-    width: 400px; }
+    width: 100px; }
 
 footer {
   display: flex;
