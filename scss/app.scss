@@ -65,10 +65,12 @@ h1 {
 }
 
 section {
-
-    .cards__product{
-        padding: 5px 0px;
+    div{
+        .cards__product{
+            padding: 5px 0px;
+        }
     }
+    
 
     img {
         height: 250px;
