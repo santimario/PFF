@@ -47,9 +47,6 @@ section div .cards__product {
     width: 500px; }
 
 section .carrousel__client {
-  width: 75%;
-  display: flex;
-  justify-content: center;
   padding: 20px 0px; }
   section .carrousel__client img {
     height: 700px;
