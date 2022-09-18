@@ -10,49 +10,87 @@ body {
   background-position: center;
   background-attachment: fixed; }
 
-header #logo {
-  width: 300px;
-  border: solid 1px grey;
-  border-radius: 50%;
-  box-shadow: 5px 5px 60px grey; }
-  @media (max-width: 500px) {
-    header #logo {
-      width: 250px; } }
-
-header nav div ul {
-  width: 100%;
-  display: flex;
-  justify-content: end; }
-  header nav div ul a {
-    display: inline-block;
-    color: white;
-    font-family: "Rubik Dirt";
-    text-decoration: none;
-    font-size: 23px;
-    padding: 0px 10px; }
-    header nav div ul a:hover {
-      animation: bounce;
-      animation-duration: 2s;
-      color: white; }
+header {
+  background-color: white; }
+  header #logo {
+    width: 200px; }
+  header nav div ul {
+    width: 100%;
+    display: flex;
+    justify-content: end; }
+    header nav div ul a {
+      display: inline-block;
+      color: black;
+      font-family: "Rubik Dirt";
+      text-decoration: none;
+      font-size: 23px;
+      padding: 0px 10px; }
+      header nav div ul a:hover {
+        animation: bounce;
+        animation-duration: 2s;
+        color: orange; }
 
 h1 {
   text-align: center;
   width: 39%;
-  font-family: "Rubik Dirt"; }
+  font-family: "Rubik Dirt";
+  padding: 20px 0px; }
 
-section div .cards__product {
+h2 {
+  font-family: "Roboto"; }
+
+div .cards__product {
   padding: 5px 0px; }
-  section div .cards__product img {
+  div .cards__product img {
     height: 250px;
     width: 500px; }
 
+section p {
+  font-family: "Poppins";
+  font-size: x-large;
+  font-weight: normal; }
+
 section .carrousel__client {
   padding: 20px 0px; }
+
+section .img__index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px; }
+  section .img__index img {
+    width: 80%; }
+    @media (max-width: 500px) {
+      section .img__index img {
+        width: 100%; } }
+
+section .facts__index {
+  display: flex; }
+  section .facts__index img {
+    width: 150px; }
+    @media (max-width: 500px) {
+      section .facts__index img {
+        width: 100px; } }
+
+section label {
+  font-weight: bold; }
+
+section .img__facts-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px; }
+
+article p {
+  font-family: "Poppins";
+  font-size: x-large; }
 
 footer {
   display: flex;
   row-gap: row;
   font-family: "Rubik Dirt"; }
+  footer label, footer p {
+    font-size: large; }
   footer img {
     width: 50px; }
     @media (max-width: 500px) {
