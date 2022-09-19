@@ -1,5 +1,8 @@
 $color-primary: white;
 $color-secondary: orange;
-$font-family-primary: 'Rubik Dirt';
-$font-family-secondary: 'Roboto';
-$font-family-paragraph:'Poppins';
+
+$fonts:(
+    'primary': 'Rubik Dirt',
+    'secondary': 'Roboto',
+    'paragraph': 'Poppins'
+);

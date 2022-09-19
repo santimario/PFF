@@ -36,7 +36,7 @@ header {
                 a {
                     display: inline-block;
                     color: black;
-                    font-family: $font-family-primary;
+                    font-family: map-get($map: $fonts, $key:'primary');
                     text-decoration: none;
                     font-size: 23px;
                     padding: 0px 10px;
@@ -57,12 +57,12 @@ header {
 h1 {
     text-align: center;
     width: 39%;
-    font-family: $font-family-primary;
+    font-family: map-get($map: $fonts, $key:'primary' );
     padding: 20px 0px;
 }
 
 h2 {
-    font-family: $font-family-secondary;
+    font-family: map-get($map: $fonts , $key:'secondary' );
 }
 
 div {
@@ -78,7 +78,7 @@ div {
 
 section {
     p {
-        font-family: $font-family-paragraph;
+        font-family: map-get($map: $fonts, $key:'paragraph');
         font-size: x-large;
         font-weight: normal;
     }
@@ -125,7 +125,7 @@ section {
 
 article {
     p {
-        font-family: $font-family-paragraph;
+        font-family: map-get($map: $fonts, $key:'paragraph');
         font-size: x-large;
     }
 }
@@ -133,7 +133,8 @@ article {
 footer {
     display: flex;
     row-gap: row;
-    font-family: $font-family-primary;
+    font-family: map-get($map: $fonts, $key:'primary');
+    
 label,p{
     font-size: large;
 }
