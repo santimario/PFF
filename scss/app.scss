@@ -65,8 +65,11 @@ h2 {
     font-family: map-get($map: $fonts , $key:'secondary' );
 }
 
+
 div {
     .cards__product {
+        display: flex;
+        justify-content: center;
         padding: 5px 0px;
 
         img {
@@ -99,8 +102,7 @@ section {
         }
     }
 
-
-
+    
 
     .facts__index {
         display: flex;
@@ -128,6 +130,12 @@ article {
         font-family: map-get($map: $fonts, $key:'paragraph');
         font-size: x-large;
     }
+
+   .img__about{
+        img{
+            width: 90%;
+        }
+   }
 }
 
 footer {
