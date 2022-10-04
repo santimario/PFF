@@ -17,7 +17,7 @@
 
 <body class="container-fluid">
 
-    <header class="container">
+    <header class="container-fluid">
 
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -35,19 +35,19 @@
                             <a class="animacion" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="../paginas/clientes.html">Clientes</a>
+                            <a href="../paginas/clientes.html">Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="../paginas/about.html">Acerca de nosotros</a>
+                            <a href="../paginas/about.html">Acerca de nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="../paginas/contacto.html">Contacto</a>
+                            <a href="../paginas/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>   
+    </header>
 
     <div class="container-fluid">
 
@@ -58,7 +58,7 @@
         <div class="row">
             <div class="col cards__product">
                 <div class="card" style="width: 18rem;">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="product-1" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="../img/productos-img/polea-1.png" class="d-block w-100" alt="polea-1">
@@ -67,7 +67,20 @@
                                 <img src="../img/productos-img/polea-2.png" class="d-block w-100" alt="polea-2">
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#product-1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#product-1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
+
+
+
                     <h5 class="card-title text-dark">Polea</h5>
                     <p class="card-text text-dark">
                         -Polea de 90mm
@@ -81,7 +94,7 @@
 
             <div class="col cards__product">
                 <div class="card" style="width: 18rem;">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="product-2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="../img/productos-img/regaton-1-plastico.png" class="d-block w-100"
@@ -92,7 +105,19 @@
                                     alt="regaton-2">
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#product-2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#product-2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
+
+
                     <h5 class="card-title text-dark">Regaton</h5>
                     <p class="card-text text-dark">
                         -Medidas: 80x40
@@ -102,21 +127,32 @@
                         -Material: Plastico
                     </p>
                 </div>
+
             </div>
 
             <div class="col cards__product">
                 <div class="card" style="width: 18rem;">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="product-3" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="../img/productos-img/buje-reductor-largo-1.png" class="d-block w-100"
-                                    alt="polea-1">
+                                    alt="buje-reductor-largo-1">
                             </div>
                             <div class="carousel-item">
                                 <img src="../img/productos-img/buje-reductor-largo-2.png" class="d-block w-100"
-                                    alt="polea-2">
+                                    alt="buje-reductor-largo-2">
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#product-3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#product-3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                     <h5 class="card-title text-dark">Buje reductor largo</h5>
                     <p class="card-text text-dark">
@@ -129,7 +165,42 @@
                 </div>
             </div>
 
-            
+            <div class="col cards__product">
+                <div class="card" style="width: 18rem;">
+                    <div id="product-4" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/productos-img/arandela-1.jpg" class="d-block w-100"
+                                    alt="buje-reductor-largo-1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/productos-img/arandela-2.jpg" class="d-block w-100"
+                                    alt="buje-reductor-largo-2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#product-4"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#product-4"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <h5 class="card-title text-dark">Arandela tope porta disco olimpicos</h5>
+                    <p class="card-text text-dark">
+                        -Medidas: 48mm de diametro interno x 95mm de diametro externo
+                        <br>
+                        -Color: Negro
+                        <br>
+                        -Material: Plastico
+                    </p>
+                </div>
+            </div>
+
+
 
         </div>
     </div>

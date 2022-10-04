@@ -16,7 +16,7 @@
 </head>
 
 <body class="container-fluid">
-    <header class="container">
+    <header class="container-fluid">
 
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -31,16 +31,16 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a  href="../index.html">Inicio</a>
+                            <a href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="../paginas/productos.html">Productos</a>
+                            <a href="../paginas/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="../paginas/clientes.html">Clientes</a>
+                            <a href="../paginas/clientes.html">Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a  href="../paginas/about.html">Acerca de nosotros</a>
+                            <a href="../paginas/about.html">Acerca de nosotros</a>
                         </li>
 
                     </ul>
@@ -49,14 +49,28 @@
         </nav>
     </header>
 
-    <div class="row">
-        <h1>Contacto</h1>
-    </div>
 
-    <div class="row">
-        <div class="col">
-            <form action="" method="get" enctype="multipart/form-data">
-                
+    <div class="container-fluid">
+
+        <div class="row">
+            <h1>Contacto</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col img__contacto form__contacto">
+                <img src="../img/contacto-img/contacto-img.png" alt="atencion-telefonica">
+                <p>Nuestros horarios de atencion son:
+                    <br>
+                    Lunes a Viernes
+                    <br>
+                    9hrs - 18hrs
+                </p>
+            </div>
+
+            <div class="col-12  col-xl-8 form__contacto">
+                <form action="" method="get" enctype="multipart/form-data">
+
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1"
@@ -78,13 +92,15 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <input class="btn btn-light" type="submit" value="Enviar">
+            </div>
+
+
+
         </div>
-
-                
-
     </div>
 
-    <br>
+
+    
     <footer class="container-fluid border-css">
 
         <div class="col-7 d-flex justify-content-end">

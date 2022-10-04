@@ -2,7 +2,7 @@
   color: white; }
 
 .border-css {
-  border: 1px solid white; }
+  border: 1px solid black; }
 
 body {
   background-image: url(../img/fondo.jpg);
@@ -11,7 +11,7 @@ body {
   background-attachment: fixed; }
 
 header {
-  background-color: white; }
+  background-color: #030000; }
   header #logo {
     width: 200px; }
   header nav div ul {
@@ -20,7 +20,7 @@ header {
     justify-content: end; }
     header nav div ul a {
       display: inline-block;
-      color: black;
+      color: white;
       font-family: "Rubik Dirt";
       text-decoration: none;
       font-size: 23px;
@@ -28,13 +28,13 @@ header {
       header nav div ul a:hover {
         animation: bounce;
         animation-duration: 2s;
-        color: orange; }
+        color: #ff7f27; }
 
 h1 {
   text-align: center;
   width: 39%;
   font-family: "Rubik Dirt";
-  padding: 20px 0px; }
+  padding: 100px 0px; }
 
 h2 {
   font-family: "Roboto"; }
@@ -42,59 +42,92 @@ h2 {
 div .cards__product {
   display: flex;
   justify-content: center;
-  padding: 5px 0px; }
+  padding: 0px 20px 100px 0px; }
   div .cards__product img {
     height: 250px;
     width: 500px; }
+  div .cards__product p {
+    font-size: large;
+    font-weight: bold;
+    padding: 20px 10px 5px 20px; }
+  div .cards__product h5 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large; }
+  div .cards__product button span {
+    background-color: black; }
 
-section p {
-  font-family: "Poppins";
-  font-size: x-large;
-  font-weight: normal; }
+div .form__contacto {
+  padding: 0px 0px 100px 0px; }
 
-section .carrousel__client {
-  padding: 20px 0px; }
+div .img__contacto {
+  padding: 50px; }
+  div .img__contacto img {
+    width: 350px; }
+  div .img__contacto p {
+    font-family: "Poppins";
+    font-size: x-large;
+    font-weight: bold; }
 
-section .img__index {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 0px; }
-  section .img__index img {
-    width: 80%; }
-    @media (max-width: 500px) {
-      section .img__index img {
-        width: 100%; } }
+section {
+  padding: 0px 0px 50px 0px; }
+  section h2 {
+    color: #ff7f27; }
+  section p {
+    font-family: "Poppins";
+    font-size: x-large;
+    font-weight: normal; }
+  section .carrousel__client {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center; }
+  section .img__index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px; }
+    section .img__index img {
+      width: 80%; }
+      @media (max-width: 500px) {
+        section .img__index img {
+          width: 100%; } }
+  section .facts__index {
+    display: flex; }
+    section .facts__index img {
+      width: 150px; }
+      @media (max-width: 500px) {
+        section .facts__index img {
+          width: 100px; } }
+  section label {
+    font-weight: bold; }
+  section .img__facts-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px; }
 
-section .facts__index {
-  display: flex; }
-  section .facts__index img {
-    width: 150px; }
-    @media (max-width: 500px) {
-      section .facts__index img {
-        width: 100px; } }
-
-section label {
-  font-weight: bold; }
-
-section .img__facts-index {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 0px; }
-
-article p {
-  font-family: "Poppins";
-  font-size: x-large; }
-
-article .img__about img {
-  width: 90%; }
+article {
+  padding: 0px 0px 50px 0px; }
+  article p {
+    font-family: "Poppins";
+    font-size: x-large; }
+  article .img__about {
+    display: flex;
+    justify-content: center; }
+    article .img__about img {
+      width: 600px; }
+      @media (max-width: 500px) {
+        article .img__about img {
+          width: 350px; } }
 
 footer {
+  background-color: black;
   display: flex;
   row-gap: row;
+  justify-content: center;
   font-family: "Rubik Dirt"; }
-  footer label, footer p {
+  footer label,
+  footer p {
     font-size: large; }
   footer img {
     width: 50px; }
